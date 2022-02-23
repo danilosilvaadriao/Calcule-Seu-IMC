@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule seu IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="iconIMC.png" type="image/x-icon">
+  </head>
+  <body>
+      <br>
+      <p>Os cálculos aqui realizados são baseados na tabela de Índice de Massa Corporal (IMC) da Organização Mundial da Saúde (OMS).</p>
+    <main>
+      <div class="container">
+        <div class="title"> CALCULE SEU IMC </div>
+        <div class="input">
+            <label>Nome:</label>
+            <input type="text" id='nome'>
+        </div>
+        <div class="input">
+            <label>Altura:</label>
+            <input type="number" id='altura'>
+        </div>
+        <div class="input">
+            <label>Peso:</label>
+            <input type="number" id='peso'>
+        </div>
+        <button id='calcular'>CALCULE AQUI</button>
+
+        <div class="result" id='resultado'></div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <footer>Projeto desenvolvido com base no canal do Fernando Leonid no Youtube.</footer>
+    <br>
+  </body>
+</html>
